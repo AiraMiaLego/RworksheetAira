@@ -1,0 +1,150 @@
+---
+title: "RMarkDown_Lego3b"
+output:
+  pdf_document: default
+  html_document: default
+date: "2023-10-04"
+---
+## R Markdown
+##1. Create a data frame using the table.
+##a. Write the codes.
+```{r}
+respo<- c(1:20)
+male<- 1
+female<- 2
+sex<- c(female, female, male, female, female, female, female, female, female, female, male, female, female, female, female, female, female, female, male, female)
+farmer<-1
+driver<-2
+others<-3
+occupation<- c (farmer, others, others, others, farmer, driver, others, farmer, farmer, farmer, others, driver, farmer, others, others, farmer, others, farmer, driver, farmer)
+person<-c(5,7,3,8,5,9,6,7,8,4,7,5,4,7,8,8,3,11,7,6)
+  sibling<-c(6,4,4,1,2,1,5,3,1,2,3,2,5,5,2,1,2,5,3,2)
+  wood<-1
+  semi_concrete<-2
+  concrete<-3
+  house<- c(wood,semi_concrete,concrete,wood,wood,concrete,concrete,wood,semi_concrete,concrete,semi_concrete,concrete,semi_concrete,semi_concrete,concrete,concrete,concrete,concrete,concrete,semi_concrete)
+```
+
+```{r}
+num1<-data.frame(
+  respondents<- c(respo),
+  sex<- c(sex),
+  occupations<- c(occupation),
+  person<- c(person),
+  siblings<- c(sibling),
+  type<-(house)
+)
+colnames(num1)<- c("Respondents", "Sex", "Father Occupation", "Person at Home", "Sibling at School", "Types of house")
+num1
+```
+##b. Describe the data. Get the structure or the summary of the data.
+
+##c. Is the mean number of siblings attending is 5?
+No!!!
+```{r}
+mean(siblings)
+```
+##d. Extract the 1st two rows and then all the columns using the subsetting functions.
+##Write the codes and its output.
+```{r}
+num1[1:2, ]
+```
+##e. Extract 3rd and 5th row with 2nd and 4th column. Write the codes and its result.
+```{r}
+num1[c(3, 5), c(2, 4)]
+```
+
+##f. Select the variable types of houses then store the vector that results as types_houses.
+##Write the codes.
+```{r}
+types_houses<- c(house)
+types_houses
+```
+##g. Select only all Males respondent that their father occupation was farmer. Write the codes and its output.
+```{r}
+num1_g<- subset(num1, sex == 1 & occupation == 1)
+num1_g
+```
+##h. Select only all females respondent that have greater than or equal to 5 number of siblings attending school. Write the codes and its outputs.
+```{r}
+num1_h<- subset(num1, sex == 2 & sibling >= 5)
+num1_h
+```
+##2. Write a R program to create an empty data frame. Using the following codes:
+##df = data.frame(Ints=integer(),
+
+##Doubles=double(), Characters=character(),
+##Logicals=logical(),
+##Factors=factor(),
+##stringsAsFactors=FALSE)
+
+##print("Structure of the empty dataframe:")
+##print(str(df))
+##a. Describe the results.
+
+```{r}
+df = data.frame(Ints=integer(),
+
+Doubles=double(), Characters=character(),
+Logicals=logical(),
+Factors=factor(),
+stringsAsFactors=FALSE)
+
+print("Structure of the empty dataframe:")
+print(str(df))
+```
+##3. Create a .csv file of this. Save it as HouseholdData.csv
+#a. Import the csv file into the R environment. Write the codes.
+```{r}
+library(readr)
+HouseholdData <- read_csv("HouseholdData.csv")
+HouseholdData
+```
+
+##b. Convert the Sex into factor using factor() function and change it into integer.[Legend:Male = 1 and Female = 2].
+#Write the R codes and its output.
+```{r}
+HouseholdData$Sex<- factor(HouseholdData$Sex, levels = c("Male" ,"Female"), labels=c(1,2))
+HouseholdData
+```
+##c. Convert the Type of Houses into factor and change it into integer. [Legend: Wood= 1; Congrete = 2; Semi-Congrete = 3].
+##Write the R codes and its output.
+```{r}
+HouseholdData$`Types of Houses` <- factor(HouseholdData$`Types of Houses`, levels = c("Wood" ,"Semi-congrete", "Congrete"), labels=c(1,2,3))
+HouseholdData
+```
+##d. On father’s occupation, factor it as Farmer = 1; Driver = 2; and Others = 3.
+#What is the R code and its output?
+```{r}
+HouseholdData$`Fathers Occupation` <- factor(HouseholdData$`Fathers Occupation`, levels = c(1,2,3), labels=c("Farmer" ,"Driver", "Others"))
+HouseholdData
+```
+##e. Select only all females respondent that has a father whose occupation is driver.
+##Write the codes and its output.
+```{r}
+num3_e<- subset(HouseholdData, Sex == "Female" & `Fathers Occupation` == "Farmer")
+num3_e
+```
+##f. Select the respondents that have greater than or equal to 5 number of siblings attending school.
+##Write the codes and its output.
+```{r} 
+num3_f<- subset(HouseholdData, `Siblings at School` >= 5)
+num3_f
+```
+##4. Interpret the graph.
+##Sentiments of Tweets Per Day
+##1.July 14, 2020: There were a total of 5,800 tweets. Among these, 2,500 were negative, 1,500 were neutral, and 1,800 were positive.
+
+##2.July 15, 2020: On this day, there were a total of 10,100 tweets. Out of these, 4,200 were negative, 2,800 were neutral, and 3,100 were positive.
+
+##3. July 17, 2020: There were 8,100 tweets in total. Of these, 3,300 were negative, 2,000 were neutral, and 2,800 were positive.
+
+##4.July 18, 2020: On this day, there were 8,100 tweets as well. Out of these, 3,300 were negative, 2,200 were neutral, and 2,600 were positive.
+
+##5.July 20, 2020: There were 5,100 tweets in total. Among these, 2,300 were negative, 1,300 were neutral, and 1,500 were positive.
+
+##6.July 21, 2020: The total number of tweets was 10,300. Out of these, 4,000 were negative, 2,800 were neutral, and 3,500 were positive.
+
+##According to the graph the negative sentiments are most tweets per day, while positive sentiments are in second place and neutral sentiments are always been last.
+
+
