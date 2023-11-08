@@ -1,0 +1,429 @@
+"","country","neighbourhood","price","stars","accommodation_type","rating"
+"1","Austria","17. Hernals",81,4,"Apartment",4.4
+"2","Austria","17. Hernals",81,4,"Hotel",3.9
+"3","Austria","Alsergrund",85,4,"Hotel",3.7
+"4","Austria","Alsergrund",83,3,"Hotel",4
+"5","Austria","Alsergrund",82,4,"Hotel",3.9
+"6","Austria","Alsergrund",229,5,"Apartment",4.8
+"7","Austria","Alsergrund",103,4,"Hotel",3.9
+"8","Austria","Alsergrund",150,4,"Hotel",4.6
+"9","Austria","Alsergrund",80,2,"Hotel",3.5
+"10","Austria","Alsergrund",153,3,"Apartment",NA
+"11","Austria","Alsergrund",60,4,"Hotel",4.1
+"12","Austria","Alsergrund",128,4,"Hotel",4
+"13","Austria","Alsergrund",100,4,"Apartment",4.5
+"14","Austria","Alsergrund",143,2,"Apartment",3.7
+"15","Austria","Alsergrund",106,2.5,"Hotel",NA
+"16","Austria","Alsergrund",85,4,"Hotel",4.1
+"17","Austria","Alsergrund",77,3,"Hotel",3.7
+"18","Austria","Alsergrund",78,3,"Hotel",3.9
+"19","Austria","Alsergrund",78,3,"Hotel",4
+"20","Austria","Donaustadt",260,3.5,"Apartment",NA
+"21","Austria","Donaustadt",158,3,"Apartment",4.8
+"22","Austria","Donaustadt",77,3,"Hotel",3.9
+"23","Austria","Donaustadt",77,3,"Hotel",2.7
+"24","Austria","Donaustadt",95,4,"Hotel",4.3
+"25","Austria","Donaustadt",156,3,"Apartment",3
+"26","Austria","Donaustadt",145,3,"Bed and breakfast",3.5
+"27","Austria","Donaustadt",208,4,"Hotel",4.1
+"28","Austria","Donaustadt",87,3,"Hotel",3.7
+"29","Austria","Favoriten",131,2,"Apartment",3.5
+"30","Austria","Favoriten",54,3,"Hotel",3.5
+"31","Austria","Favoriten",139,2,"Apartment",3
+"32","Austria","Favoriten",184,2,"Apartment",3.2
+"33","Austria","Favoriten",127,3,"Apartment",1
+"34","Austria","Favoriten",95,3,"Apartment",NA
+"35","Austria","Favoriten",99,3.5,"Hotel",4.4
+"36","Austria","Favoriten",75,3.5,"Hotel",4.4
+"37","Austria","Favoriten",76,3,"Hotel",4.4
+"38","Austria","Favoriten",130,2,"Apartment",3
+"39","Austria","Favoriten",91,4,"Hotel",4.5
+"40","Austria","Favoriten",135,2,"Apartment",3
+"41","Austria","Favoriten",56,2,"Hotel",2
+"42","Austria","Favoriten",27,2,"Hostel",3.7
+"43","Austria","Favoriten",88,3,"Apartment",3
+"44","Austria","Favoriten",133,2,"Apartment",3.5
+"45","Austria","Favoriten",33,2,"Hotel",3.4
+"46","Austria","Favoriten",116,3.5,"Apartment",NA
+"47","Austria","Favoriten",71,4,"Hotel",4
+"48","Austria","Favoriten",90,3.5,"Apartment",3.5
+"49","Austria","Favoriten",84,4,"Apartment",4.1
+"50","Austria","Favoriten",63,3,"Guest House",4.3
+"51","Austria","Fischamend",59,3,"Hotel",3
+"52","Austria","Graben",113,3,"Hotel",4.4
+"53","Austria","Graben",218,4.5,"Apartment",4.1
+"54","Austria","Graben",299,5,"Hotel",4.5
+"55","Austria","Innere Stadt",156,3,"Hotel",4.5
+"56","Austria","Innere Stadt",513,5,"Hotel",4.8
+"57","Austria","Innere Stadt",133,4,"Hotel",4.3
+"58","Austria","Innere Stadt",123,4,"Hotel",4.1
+"59","Austria","Innere Stadt",219,4,"Hotel",4.5
+"60","Austria","Innere Stadt",152,4,"Hotel",4.3
+"61","Austria","Innere Stadt",115,4,"Hotel",4.3
+"62","Austria","Innere Stadt",806,5,"Hotel",4.5
+"63","Austria","Innere Stadt",138,4,"Hotel",4.5
+"64","Austria","Innere Stadt",95,3,"Apartment",3.7
+"65","Austria","Innere Stadt",146,4,"Hotel",4.4
+"66","Austria","Innere Stadt",103,3,"Pension",4
+"67","Austria","Innere Stadt",125,3.5,"Apartment",NA
+"68","Austria","Innere Stadt",98,3,"Hotel",3.7
+"69","Austria","Innere Stadt",121,3.5,"Hotel",4.5
+"70","Austria","Innere Stadt",149,4,"Hotel",4
+"71","Austria","Innere Stadt",120,3,"Hotel",3.9
+"72","Austria","Innere Stadt",157,3,"Hotel",4.4
+"73","Austria","Innere Stadt",261,5,"Hotel",4.8
+"74","Austria","Innere Stadt",145,3.5,"Apartment",4.1
+"75","Austria","Innere Stadt",275,4,"Apartment",4.3
+"76","Austria","Innere Stadt",253,3.5,"Apartment",NA
+"77","Austria","Innere Stadt",209,4,"Apartment",NA
+"78","Austria","Innere Stadt",112,4,"Hotel",4
+"79","Austria","Innere Stadt",138,4,"Hotel",4.3
+"80","Austria","Innere Stadt",84,3,"Pension",4
+"81","Austria","Innere Stadt",199,4.5,"Hotel",4.5
+"82","Austria","Innere Stadt",203,5,"Hotel",4.4
+"83","Austria","Innere Stadt",116,3,"Vacation home Condo",NA
+"84","Austria","Innere Stadt",107,3.5,"Apartment",NA
+"85","Austria","Innere Stadt",127,3.5,"Apartment",NA
+"86","Austria","Innere Stadt",104,3.5,"Apartment",NA
+"87","Austria","Innere Stadt",168,3.5,"Apartment",4
+"88","Austria","Innere Stadt",544,5,"Hotel",4.8
+"89","Austria","Innere Stadt",252,5,"Hotel",4.6
+"90","Austria","Innere Stadt",323,5,"Hotel",4.5
+"91","Austria","Innere Stadt",158,3,"Hotel",4.3
+"92","Austria","Innere Stadt",156,3.5,"Apartment",4
+"93","Austria","Innere Stadt",218,4,"Hotel",4.6
+"94","Austria","Innere Stadt",218,4,"Hotel",4.5
+"95","Austria","Innere Stadt",135,3,"Hotel",3.9
+"96","Austria","Innere Stadt",219,2,"Apartment",4
+"97","Austria","Innere Stadt",179,4,"Hotel",4.4
+"98","Austria","Innere Stadt",511,3.5,"Apartment",NA
+"99","Austria","Innere Stadt",157,4,"Hotel",4.5
+"100","Austria","Innere Stadt",146,4,"Hotel",4.5
+"101","Austria","Innere Stadt",200,5,"Hotel",4.3
+"102","Austria","Innere Stadt",157,4,"Hotel",4.1
+"103","Austria","Innere Stadt",138,4,"Apartment",NA
+"104","Austria","Innere Stadt",108,3,"Hotel",3.5
+"105","Austria","Innere Stadt",290,3.5,"Apartment",NA
+"106","Austria","Innere Stadt",127,4,"Hotel",4
+"107","Austria","Innere Stadt",114,3,"Guest House",3
+"108","Austria","Innere Stadt",163,4,"Hotel",4.1
+"109","Austria","Innere Stadt",116,4,"Apart-hotel",4.5
+"110","Austria","Innere Stadt",226,5,"Hotel",4.3
+"111","Austria","Innere Stadt",231,4,"Hotel",4.4
+"112","Austria","Innere Stadt",116,4,"Hotel",4.4
+"113","Austria","Innere Stadt",76,3,"Guest House",3.7
+"114","Austria","Innere Stadt",135,3.5,"Apartment",1
+"115","Austria","Innere Stadt",184,5,"Hotel",4.5
+"116","Austria","Innere Stadt",384,5,"Hotel",4.8
+"117","Austria","Innere Stadt",166,4,"Hotel",4.3
+"118","Austria","Innere Stadt",187,5,"Hotel",4.1
+"119","Austria","Innere Stadt",371,5,"Hotel",4.6
+"120","Austria","Innere Stadt",156,4,"Pension",4.4
+"121","Austria","Innere Stadt",220,3.5,"Apartment",NA
+"122","Austria","Innere Stadt",169,4,"Hotel",4.5
+"123","Austria","Innere Stadt",103,3,"Apartment",NA
+"124","Austria","Innere Stadt",266,5,"Apartment",4.5
+"125","Austria","Innere Stadt",131,3,"Pension",3.9
+"126","Austria","Innere Stadt",168,4,"Apartment",4.6
+"127","Austria","Innere Stadt",101,3,"Apartment",NA
+"128","Austria","Innere Stadt",364,3.5,"Apartment",NA
+"129","Austria","Innere Stadt",242,4,"Hotel",4.8
+"130","Austria","Innere Stadt",223,4,"Hotel",3.5
+"131","Austria","Innere Stadt",149,4,"Hotel",4.4
+"132","Austria","Innere Stadt",232,3.5,"Apartment",NA
+"133","Austria","Innere Stadt",114,4,"Hotel",4
+"134","Austria","Innere Stadt",253,3.5,"Apartment",2
+"135","Austria","Innere Stadt",163,4,"Apart-hotel",4.4
+"136","Austria","Innere Stadt",116,3,"Pension",4.1
+"137","Austria","Innere Stadt",139,4,"Hotel",3.5
+"138","Austria","Innere Stadt",91,3.5,"Apartment",3.2
+"139","Austria","Josefstadt",79,3,"Hotel",3.5
+"140","Austria","Josefstadt",66,4,"Pension",3.7
+"141","Austria","Josefstadt",100,3,"Apartment",3
+"142","Austria","Josefstadt",75,2.5,"Pension",3
+"143","Austria","Josefstadt",73,2,"Pension",3.5
+"144","Austria","Josefstadt",127,5,"Hotel",4.1
+"145","Austria","Josefstadt",110,3,"Hotel",4.1
+"146","Austria","Josefstadt",88,3,"Hotel",4.4
+"147","Austria","Josefstadt",59,3,"Pension",3.7
+"148","Austria","Josefstadt",355,4,"Apartment",NA
+"149","Austria","Josefstadt",59,3,"Hotel",3.9
+"150","Austria","Josefstadt",119,4,"Hotel",4
+"151","Austria","Josefstadt",152,4,"Hotel",4.3
+"152","Austria","Josefstadt",102,4,"Hotel",4
+"153","Austria","Josefstadt",363,3.5,"Apartment",5
+"154","Austria","Josefstadt",54,3,"Hotel",3.2
+"155","Austria","Josefstadt",101,3,"Apartment",4
+"156","Austria","Josefstadt",75,2,"Hotel",4
+"157","Austria","Josefstadt",73,2,"Hotel",3.9
+"158","Austria","Josefstadt",94,3,"Hotel",4.1
+"159","Austria","Josefstadt",64,4,"Pension",3.5
+"160","Austria","Josefstadt",81,3.5,"Apart-hotel",3.7
+"161","Austria","Josefstadt",162,3,"Apartment",4
+"162","Austria","Josefstadt",115,4,"Hotel",4.5
+"163","Austria","Josefstadt",101,4,"Apartment",4.4
+"164","Austria","Josefstadt",68,3,"Hotel",3.7
+"165","Austria","Kaerntner Strasse",354,5,"Hotel",4.5
+"166","Austria","Kaerntner Strasse",153,4,"Hotel",4.1
+"167","Austria","Kaerntner Strasse",202,5,"Hotel",4.3
+"168","Austria","Kaerntner Strasse",169,4,"Hotel",4.1
+"169","Austria","Kaerntner Strasse",182,4,"Hotel",4.5
+"170","Austria","Kaerntner Strasse",193,3,"Apartment",NA
+"171","Austria","Kaerntner Strasse",138,4,"Pension",4.1
+"172","Austria","Kaerntner Strasse",527,5,"Hotel",4.8
+"173","Austria","Kaerntner Strasse",142,4,"Hotel",4.4
+"174","Austria","Kaerntner Strasse",98,3.5,"Apartment",NA
+"175","Austria","Landstrasse",110,4,"Hotel",4.3
+"176","Austria","Landstrasse",82,3.5,"Apartment",4.1
+"177","Austria","Landstrasse",91,3.5,"Apartment",2.5
+"178","Austria","Landstrasse",150,3.5,"Apartment",NA
+"179","Austria","Landstrasse",83,3.5,"Apartment",4.4
+"180","Austria","Landstrasse",95,4.5,"Apartment",4
+"181","Austria","Landstrasse",131,3,"Apartment",3.7
+"182","Austria","Landstrasse",162,4,"Bed and breakfast",4.8
+"183","Austria","Landstrasse",177,5,"Hotel",4.3
+"184","Austria","Landstrasse",122,2,"Apartment",4
+"185","Austria","Landstrasse",79,3,"Apartment",2
+"186","Austria","Landstrasse",82,4,"Hotel",4
+"187","Austria","Landstrasse",82,4,"Hotel",4.1
+"188","Austria","Landstrasse",66,3,"Hotel",3.9
+"189","Austria","Landstrasse",169,4,"Hotel",4.1
+"190","Austria","Landstrasse",59,3,"Guest House",3.7
+"191","Austria","Landstrasse",109,4,"Hotel",4.1
+"192","Austria","Landstrasse",104,3,"Hotel",3.4
+"193","Austria","Landstrasse",145,3.5,"Hotel",4.3
+"194","Austria","Landstrasse",58,3.5,"Apartment",2
+"195","Austria","Landstrasse",107,4,"Vacation home Condo",4.3
+"196","Austria","Landstrasse",85,3,"Hotel",3.5
+"197","Austria","Landstrasse",184,4,"Apartment",4.5
+"198","Austria","Landstrasse",137,4.5,"Hotel",4.1
+"199","Austria","Landstrasse",116,4.5,"Hotel",4.5
+"200","Austria","Landstrasse",157,2,"Apartment",3.7
+"201","Austria","Landstrasse",110,3,"Hotel",3.7
+"202","Austria","Landstrasse",134,4,"Hotel",4.3
+"203","Austria","Landstrasse",79,4,"Hotel",3.7
+"204","Austria","Landstrasse",143,3,"Apartment",4.5
+"205","Austria","Landstrasse",132,4,"Hotel",4.1
+"206","Austria","Landstrasse",68,4,"Apartment",4
+"207","Austria","Leopoldstadt",128,4,"Hotel",4.1
+"208","Austria","Leopoldstadt",99,3,"Hotel",4.5
+"209","Austria","Leopoldstadt",149,2,"Apartment",2.2
+"210","Austria","Leopoldstadt",86,4,"Hotel",4
+"211","Austria","Leopoldstadt",155,3,"Apartment",4.1
+"212","Austria","Leopoldstadt",63,3,"Hotel",3.4
+"213","Austria","Leopoldstadt",157,2,"Apartment",3.7
+"214","Austria","Leopoldstadt",134,3.5,"Hotel",4
+"215","Austria","Leopoldstadt",141,5,"Apartment",4.3
+"216","Austria","Leopoldstadt",79,3,"Hotel",3.7
+"217","Austria","Leopoldstadt",138,4,"Hotel",4
+"218","Austria","Leopoldstadt",113,4,"Hotel",4.5
+"219","Austria","Leopoldstadt",171,3,"Apartment",3.5
+"220","Austria","Leopoldstadt",56,2,"Hotel",3.5
+"221","Austria","Leopoldstadt",84,3,"Hotel",3.9
+"222","Austria","Leopoldstadt",72,2,"Hotel",4
+"223","Austria","Leopoldstadt",587,5,"Hotel",1
+"224","Austria","Leopoldstadt",68,3,"Hotel",4
+"225","Austria","Leopoldstadt",102,3.5,"Hotel",3.9
+"226","Austria","Leopoldstadt",96,3,"Apartment",3.4
+"227","Austria","Leopoldstadt",81,1,"Hotel",3.7
+"228","Austria","Leopoldstadt",82,3,"Hotel",4.1
+"229","Austria","Leopoldstadt",66,3,"Hotel",4
+"230","Austria","Leopoldstadt",87,3,"Apartment",3.9
+"231","Austria","Leopoldstadt",364,4,"Apartment",NA
+"232","Austria","Leopoldstadt",240,5,"Hotel",4.5
+"233","Austria","Leopoldstadt",113,3,"Hotel",4.5
+"234","Austria","Leopoldstadt",106,3,"Hotel",4.5
+"235","Austria","Leopoldstadt",89,3,"Hotel",4.1
+"236","Austria","Leopoldstadt",61,2,"Hotel",4
+"237","Austria","Leopoldstadt",92,3.5,"Apartment",4.5
+"238","Austria","Leopoldstadt",106,4,"Hotel",4.1
+"239","Austria","Leopoldstadt",100,4,"Hotel",4
+"240","Austria","Leopoldstadt",75,3,"Hotel",4.1
+"241","Austria","Leopoldstadt",84,3,"Hotel",2.2
+"242","Austria","Leopoldstadt",151,4,"Hotel",4.6
+"243","Austria","Leopoldstadt",87,3,"Hotel",3.5
+"244","Austria","Leopoldstadt",117,4,"Hotel",4.4
+"245","Austria","Leopoldstadt",120,4,"Hotel",4.5
+"246","Austria","Leopoldstadt",132,3.5,"Apartment",NA
+"247","Austria","Leopoldstadt",68,2.5,"Hotel",3.9
+"248","Austria","Margareten",383,3,"Hotel",4
+"249","Austria","Margareten",160,4,"Apartment",4.3
+"250","Austria","Margareten",135,2,"Apartment",NA
+"251","Austria","Margareten",111,4.5,"Hotel",4.5
+"252","Austria","Margareten",174,4,"Hotel",4.3
+"253","Austria","Margareten",63,3,"Hotel",3.5
+"254","Austria","Margareten",73,3,"Apartment",4.3
+"255","Austria","Margareten",100,3.5,"Hotel",4.5
+"256","Austria","Margareten",162,3.5,"Apartment",NA
+"257","Austria","Margareten",86,4,"Hotel",3.9
+"258","Austria","Margareten",103,3,"Guest House",NA
+"259","Austria","Margareten",67,3,"Hotel",4
+"260","Austria","Margareten",129,4,"Hotel",4.1
+"261","Austria","Margareten",80,3,"Apartment",4.1
+"262","Austria","Margareten",131,2,"Apartment",3.2
+"263","Austria","Margareten",150,3.5,"Apartment",5
+"264","Austria","Mariahilf",159,3,"Apartment",4.6
+"265","Austria","Mariahilf",86,3,"Hotel",4
+"266","Austria","Mariahilf",96,2,"Hotel",3.7
+"267","Austria","Mariahilf",131,4,"Hotel",4.1
+"268","Austria","Mariahilf",103,4,"Apartment",4.1
+"269","Austria","Mariahilf",85,2,"Hotel",4
+"270","Austria","Mariahilf",80,3,"Hotel",3.9
+"271","Austria","Mariahilf",93,4,"Hotel",4
+"272","Austria","Mariahilf",81,3.5,"Apartment",4.5
+"273","Austria","Mariahilf",77,3,"Hotel",4
+"274","Austria","Mariahilf",140,4,"Hotel",4.8
+"275","Austria","Mariahilf",99,4,"Hotel",4
+"276","Austria","Mariahilf",75,4,"Pension",4.1
+"277","Austria","Mariahilf",105,4,"Hotel",4.4
+"278","Austria","Mariahilf",100,3.5,"Hotel",4.5
+"279","Austria","Mariahilf",89,3,"Pension",3.7
+"280","Austria","Mariahilf",82,3,"Hotel",3.9
+"281","Austria","Mariahilf",82,4,"Hotel",3.9
+"282","Austria","Mariahilf",88,3,"Apartment",NA
+"283","Austria","Mariahilf",150,3,"Apartment",NA
+"284","Austria","Mariahilf",134,2,"Apartment",3.7
+"285","Austria","Mariahilf",87,4,"Hotel",3.5
+"286","Austria","Mariahilf",100,4,"Hotel",3.7
+"287","Austria","Mariahilf",84,4,"Hotel",4.3
+"288","Austria","Mariahilf",52,2,"Hotel",3.7
+"289","Austria","Neubau",98,4,"Hotel",3.7
+"290","Austria","Neubau",333,5,"Hotel",4.9
+"291","Austria","Neubau",99,3,"Hotel",4.1
+"292","Austria","Neubau",77,3,"Bed and breakfast",4
+"293","Austria","Neubau",160,3.5,"Apartment",4.6
+"294","Austria","Neubau",160,3.5,"Apartment",5
+"295","Austria","Neubau",76,3,"Hotel",3.5
+"296","Austria","Neubau",89,3,"Bed and breakfast",4.4
+"297","Austria","Neubau",113,3,"Hotel",3.7
+"298","Austria","Neubau",110,4,"Hotel",4.4
+"299","Austria","Neubau",184,4,"Hotel",4.6
+"300","Austria","Neubau",33,2,"Hotel",3.2
+"301","Austria","Neubau",1012,3,"Hotel",4.3
+"302","Austria","Neubau",99,4,"Hotel",4.1
+"303","Austria","Neubau",122,3,"Hotel",3.9
+"304","Austria","Neubau",122,4,"Hotel",4.3
+"305","Austria","Neubau",105,4,"Hotel",4
+"306","Austria","Neubau",98,4,"Apartment",5
+"307","Austria","Neubau",92,3.5,"Apartment",NA
+"308","Austria","Neubau",109,4,"Hotel",4
+"309","Austria","Neubau",105,3,"Hotel",4.1
+"310","Austria","Ottakring",133,2,"Apartment",3.2
+"311","Austria","Ottakring",133,2.5,"Apartment",4.3
+"312","Austria","Ottakring",52,3,"Hotel",3.5
+"313","Austria","Ottakring",134,2,"Apartment",3.7
+"314","Austria","Ottakring",80,4,"Hotel",4
+"315","Austria","Rudolfsheim-Funfhaus",91,2,"Hotel",4
+"316","Austria","Rudolfsheim-Funfhaus",129,4,"Apartment",NA
+"317","Austria","Rudolfsheim-Funfhaus",47,2,"Hostel",3.7
+"318","Austria","Rudolfsheim-Funfhaus",70,4,"Hotel",3.9
+"319","Austria","Rudolfsheim-Funfhaus",88,3.5,"Apartment",2.2
+"320","Austria","Rudolfsheim-Funfhaus",136,3,"Hotel",4.5
+"321","Austria","Rudolfsheim-Funfhaus",80,3,"Hotel",4.1
+"322","Austria","Rudolfsheim-Funfhaus",131,2,"Apartment",3.9
+"323","Austria","Rudolfsheim-Funfhaus",81,3,"Hotel",4.1
+"324","Austria","Rudolfsheim-Funfhaus",133,2,"Apartment",3.7
+"325","Austria","Rudolfsheim-Funfhaus",66,4,"Hotel",3.7
+"326","Austria","Rudolfsheim-Funfhaus",77,3,"Hotel",4
+"327","Austria","Rudolfsheim-Funfhaus",121,3,"Apartment",4.5
+"328","Austria","Rudolfsheim-Funfhaus",69,4,"Hotel",3.7
+"329","Austria","Rudolfsheim-Funfhaus",83,3,"Hotel",4.1
+"330","Austria","Rudolfsheim-Funfhaus",53,2,"Hostel",4.1
+"331","Austria","Rudolfsheim-Funfhaus",133,3.5,"Apartment",4
+"332","Austria","Rudolfsheim-Funfhaus",77,4,"Hotel",3.9
+"333","Austria","Rudolfsheim-Funfhaus",48,2,"Hostel",4.5
+"334","Austria","Rudolfsheim-Funfhaus",142,4.5,"Hotel",4.3
+"335","Austria","Rudolfsheim-Funfhaus",121,4,"Hotel",3.9
+"336","Austria","Schonbrunn",68,3,"Hotel",3.5
+"337","Austria","Schonbrunn",63,3,"Hotel",3.7
+"338","Austria","Schonbrunn",101,3,"Hotel",4.5
+"339","Austria","Schonbrunn",75,4,"Hotel",3.7
+"340","Austria","Schonbrunn",156,4,"Hotel",4.3
+"341","Austria","Schonbrunn",56,3,"Hotel",3.5
+"342","Austria","Schonbrunn",82,3.5,"Hotel",4.5
+"343","Austria","Schonbrunn",82,4,"Hotel",4.4
+"344","Austria","Schonbrunn",106,3,"Hotel",3.7
+"345","Austria","Schonbrunn",85,3,"Hotel",2.7
+"346","Austria","Schonbrunn",83,3.5,"Hotel",4.5
+"347","Austria","Schonbrunn",92,4,"Hotel",4.1
+"348","Austria","Schonbrunn",169,3,"Apartment",4.3
+"349","Austria","Schonbrunn",77,3,"Guest House",3.5
+"350","Austria","Schwechat",92,3,"Hotel",4.3
+"351","Austria","Schwechat",166,4,"Hotel",4
+"352","Austria","Schwechat",137,4,"Hotel",3.7
+"353","Austria","Schwechat",99,3,"Hotel",3.7
+"354","Austria","Schwechat",140,4,"Hotel",3.5
+"355","Austria","Schwechat",80,3,"Hotel",3.2
+"356","Austria","Schwechat",91,3,"Hotel",3.5
+"357","Austria","Vienna",105,3.5,"Apartment",NA
+"358","Austria","Vienna",130,2,"Apartment",4
+"359","Austria","Vienna",110,3,"Pension",4.3
+"360","Austria","Vienna",117,4,"Hotel",4
+"361","Austria","Vienna",106,4,"Pension",4.1
+"362","Austria","Vienna",66,3,"Hotel",3.7
+"363","Austria","Vienna",266,5,"Apartment",4.6
+"364","Austria","Vienna",58,2,"Hotel",3.5
+"365","Austria","Vienna",81,3.5,"Hotel",4.1
+"366","Austria","Vienna",109,4,"Hotel",4
+"367","Austria","Vienna",114,4.5,"Hotel",4.3
+"368","Austria","Vienna",125,3.5,"Apart-hotel",4.4
+"369","Austria","Vienna",69,3,"Guest House",3.7
+"370","Austria","Vienna",69,3,"Apartment",NA
+"371","Austria","Vienna",97,4,"Hotel",4
+"372","Austria","Vienna",74,4,"Hotel",3.9
+"373","Austria","Vienna",69,4,"Hotel",3.7
+"374","Austria","Vienna",83,4,"Hotel",4
+"375","Austria","Vienna",50,3,"Hotel",3.9
+"376","Austria","Vienna",130,2,"Apartment",3.2
+"377","Austria","Vienna",134,3,"Apartment",3
+"378","Austria","Vienna",134,3,"Apartment",4
+"379","Austria","Vienna",77,3,"Hotel",4
+"380","Austria","Vienna",102,3,"Hotel",4
+"381","Austria","Vienna",56,3.5,"Apartment",3.2
+"382","Austria","Vienna",185,3,"Apartment",3
+"383","Austria","Vienna",130,3,"Hotel",4.4
+"384","Austria","Vienna",78,3,"Hotel",4.3
+"385","Austria","Vienna",76,3,"Hotel",3.7
+"386","Austria","Vienna",68,4,"Hotel",4
+"387","Austria","Vienna",116,4,"Hotel",4
+"388","Austria","Vienna",172,4,"Hotel",4.1
+"389","Austria","Vienna",80,2,"Hostel",3.2
+"390","Austria","Vienna",87,3,"Hotel",4
+"391","Austria","Vienna",90,3,"Hotel",3
+"392","Austria","Vienna",100,3.5,"Hotel",4.4
+"393","Austria","Vienna",173,2,"Apartment",3.2
+"394","Austria","Vienna",92,2,"Pension",3.2
+"395","Austria","Vienna",133,2,"Apartment",3.7
+"396","Austria","Vienna",134,3.5,"Apartment",3.2
+"397","Austria","Vienna",209,3,"Apartment",4
+"398","Austria","Vienna",66,3,"Apartment",4.4
+"399","Austria","Vienna",114,4,"Apartment",4.9
+"400","Austria","Voesendorf",89,4,"Hotel",3.5
+"401","Austria","Voesendorf",92,4,"Hotel",3.7
+"402","Austria","Wahring",84,3,"Hotel",4.4
+"403","Austria","Wahring",124,2,"Apartment",3.5
+"404","Austria","Wahring",185,4,"Hotel",4.4
+"405","Austria","Wahring",85,4,"Hotel",4
+"406","Austria","Wahring",133,2,"Apartment",4
+"407","Austria","Wieden",110,3.5,"Hotel",4.5
+"408","Austria","Wieden",86,3,"Hotel",4.3
+"409","Austria","Wieden",118,4,"Hotel",4.1
+"410","Austria","Wieden",126,3.5,"Hotel",4.5
+"411","Austria","Wieden",92,3,"Hotel",4.3
+"412","Austria","Wieden",197,4,"Hotel",4.8
+"413","Austria","Wieden",39,2.5,"Guest House",3.5
+"414","Austria","Wieden",135,4,"Hotel",4.5
+"415","Austria","Wieden",125,4,"Hotel",4.4
+"416","Austria","Wieden",67,2,"Hostel",3.4
+"417","Austria","Wieden",134,4,"Hotel",4.5
+"418","Austria","Wieden",91,3,"Hotel",3.5
+"419","Austria","Wieden",110,3,"Hotel",3.9
+"420","Austria","Wieden",84,3.5,"Apartment",5
+"421","Austria","Wieden",100,3,"Hotel",4
+"422","Austria","Wieden",95,4,"Hotel",4.1
+"423","Austria","Wieden",73,3,"Hotel",3.4
+"424","Austria","Wieden",109,3,"Apartment",5
+"425","Austria","Wieden",185,5,"Hotel",4.3
+"426","Austria","Wieden",100,4,"Hotel",4.4
+"427","Austria","Wieden",58,3,"Hotel",3.2
+"428","Austria","Wieden",110,3.5,"Apartment",4
