@@ -1,0 +1,33 @@
+---
+title: "RWorksheet_Lego#4b"
+output: pdf_document
+date: "2023-11-08"
+---
+##Using Loop Function
+for() loop
+##1. Using the for loop, create an R script that will display a 5x5 matrix as shown in
+Figure 1. It must contain vectorA = [1,2,3,4,5] and a 5 x 5 zero matrix.
+```{r}
+vectorA<-c(1:5)
+matrix<- matrix(0,5,5)
+vectorA
+matrix
+
+for (i in 1:5){
+  for ( j in 1:5){
+    matrix[i, j]<- abs(vectorA[i] - vectorA[j])
+  }
+}
+matrix
+```
+##2. Print the string "*" using for() function. The output should be the same as shown in Figure 2
+```{r}
+size<- 5
+for (i in 1:size){
+  cat(paste(rep("*",i), collapse=""), "\n")
+}
+```
+##3. Get an input from the user to print the Fibonacci sequence starting from the 1st inputup to 500. Use repeat and break statements. Write the R Scripts and its output.
+```{r}
+
+```
