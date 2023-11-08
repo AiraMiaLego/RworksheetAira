@@ -1,0 +1,61 @@
+---
+title: "Lego,Worksheet#4"
+output: html_document
+date: "2023-10-25"
+---
+#1. The table below shows the data about shoe size and height. Create a data frame.
+#a. Describe the data.
+```{r}
+library(readr)
+Shoe_Data <- read_csv("worksheet/Shoe Data.csv")
+View(Shoe_Data[,1:2])
+```
+#b. Create a subset by males and females with their corresponding shoe size and height.
+#What its result? Show the R scripts.
+```{r}
+male<-subset(Shoe_Data, Gender == "M" )
+male
+female<-subset(Shoe_Data, Gender == "F")
+female
+
+```
+#c. Find the mean of shoe size and height of the respondents. Write the R scripts and its result.
+```{r}
+mean(Shoe_Data$`Shoe Size`)
+mean(Shoe_Data$`Shoe Height`)
+```
+##d. Is there a relationship between shoe size and height? Why?
+##Yes there is a relationship between shoe size and height because as you can see in the table taller individuals have larger shoe size.The taller the respondents is ther larger their shoe size is.
+
+#2. Construct character vector months to a factor with factor() and assign the result tofactor_months_vector.
+#Print out factor_months_vector and assert that R prints out the factor levels below the actual values.
+```{r}
+months_vector<- c("March","April","January","November","January","September","October","September","November","August","January","November","November","February","May","August","July","December","August","August","September","November","February","April")
+factor_months_vector <- factor(months_vector)
+factor_months_vector
+```
+#3. Then check the summary() of the months_vector and factor_months_vector.
+```{r}
+summary(months_vector)
+summary(factor_months_vector)
+```
+Interpret the results of both vectors. Are they both equally useful in this case?
+##The summary of "months_vector" will reflect the original order and frequency of months in data, while the "factor_months_vector" summary will display the months in a sorted order based on the levels of the factor. So, they may not be equally useful, and the choice between them depends on specific analysis needs.
+
+##4. Create a vector and factor for the table below.
+```{r}
+direction<-c("East","West", "North")
+frequency<- c(1,4,3)
+direction
+frequency
+```
+```{r}
+factor_months_vector <- factor(months_vector)
+factor_months_vector
+```
+```{r}
+new_order_data <- factor(direction,levels = c("East","West","North"))
+print(new_order_data)
+```
+
+#5. Enter the data below in Excel with file name = import_march.csv
