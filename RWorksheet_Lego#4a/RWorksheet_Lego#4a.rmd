@@ -1,6 +1,8 @@
 ---
 title: "Lego,Worksheet#4"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 date: "2023-10-25"
 ---
 ##1. The table below shows the data about shoe size and height. Create a data frame.
@@ -80,22 +82,22 @@ if(int6>=50){
 ##a. Write a function that prints the minimum number of bills that must be paid, given the price of the snack.
 ```{r}
 bills<- c(50, 100, 200, 500, 1000)
-price<-as.numeric(readline(prompt= "Enter price a price"))
-  if (price == 50) {
+price<-as.numeric(readline(prompt= "Enter price a price: "))
+  if (price == 50){
     cat("Minimum bills is: ")
-    cat(bills[1])
-  } else if (price <= 150) {
+    cat(bills[c(1)])
+  }else if (price <= 150){
     cat("Minimum bills is: ")
-    cat(bills[1, 2])
-  }else if (price <= 450) {
+    cat(bills [c(1,2)])
+  }else if (price <= 450){
     cat("Minimum bills is: ")
-    cat(bills[1,2,3])
-  }else if (price <= 950) {
+    cat(bills [c(1,2,3)])
+  }else if (price <= 950){
     cat("Minimum bills is: ")
-    cat(bills[1,2,3,4])
-  }else if (price >= 1000) {
+    cat(bills [c(1,2,3,4)])
+  }else if (price >= 1000){
     cat("Minimum bills is: ")
-    cat(bills[1,2,3,4,5])
+    cat(bills [c(1,2,3,4,5)])
   }
 ```
 ##8The following is each student’s math score for one semester. Based on this, answer the following questions.
