@@ -10,7 +10,7 @@ date: "2023-10-25"
 ```{r}
 library(readr)
 Shoe_Data <- read_csv("Shoe Data.csv")
-View(Shoe_Data[,1:2])
+Shoe_Data[,1:2]
 ```
 ##b. Create a subset by males and females with their corresponding shoe size and height.
 ##What its result? Show the R scripts.
@@ -64,7 +64,7 @@ print(new_order_data)
 ```{r}
 library(readr)
 import_march <- read_csv("import_march.csv")
-View(import_march)
+import_march
 ```
 
 ##6. If else
@@ -81,6 +81,7 @@ if(int6>=50){
 ##7At ISATU University’s traditional cafeteria, snacks can only be purchased with bills. A long-standing rule at the concession stand is that snacks must be purchased with as few coins as possible. There are three types of bills: 50 pesos, 100 pesos, 200 pesos, 500 pesos, 1000 pesos.
 ##a. Write a function that prints the minimum number of bills that must be paid, given the price of the snack.
 ```{r}
+library(latexpdf)
 bills<- c(50, 100, 200, 500, 1000)
 price<-as.numeric(readline(prompt= "Enter price a price: "))
   if (price == 50){
