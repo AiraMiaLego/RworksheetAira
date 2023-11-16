@@ -77,8 +77,8 @@ print(result)
 ##a. What is the R script for importing an excel or a csv file? Display the first 6 rows of the dataset? Show your codes and its result
 ```{r}
 library(readr)
-Shoe_Data <- read_csv("Worksheet/Shoe Data.csv")
-View(Shoe_Data)
+Shoe_Data <- read_csv("Shoe Data.csv")
+Shoe_Data
 ```
 ```{r}
 head(Shoe_Data, n=6)
@@ -123,7 +123,7 @@ pie(values, labels = paste(categories, round(values/sum(values) * 100, 1), "%"),
 title("Expense Distribution")
 
 ```
-##6. 6. Use the iris dataset.
+##6. Use the iris dataset.
 ```{r}
 data(iris)
 ```
