@@ -1,0 +1,69 @@
+---
+title: "RWorksheet_Lego#4c"
+author: "Aira Mia Lego BSIT 2B"
+date: "2023-11-21"
+output: pdf_document
+---
+## R Markdown 4c
+##1. Use the dataset mpg
+##a. Show your solutions on how to import a csv file into the environment.
+```{r}
+library(readr)
+mpg <- read_csv("mpg.csv")
+mpg
+```
+
+##b.Which variables from mpg dataset are categorical?
+```{r}
+
+```
+
+##c. Which are continuous variables?
+```{r}
+
+```
+
+##2. Which manufacturer has the most models in this data set? Which model has the most variations? Show your answer.
+
+```{r}
+mdl<- factor(mpg$model)
+summary(mdl)
+max(summary(mdl))
+man<- factor(mpg$manufacturer)
+summary(man)
+max(summary(man))
+```
+
+##a.Group the manufacturers and find the unique models. Show your codes and result.
+```{r}
+man2a<- factor(mpg$manufacturer)
+summary(man2a)
+min(summary(man2a))
+```
+```{r}
+mdl2a<- factor(mpg$manufacturer)
+summary(mdl2a)
+min(summary(mdl2a))
+```
+
+##b.Graph the result by using plot() and ggplot(). Write the codes and its result.
+```{r}
+ggplot(data_ggp, aes(x = mpg$manufacturer, y = mpg$model)) + geom_bar(stat = "identity") 
+
+data_ggp <- data.frame(mpg$manufacturer,mpg$model)
+```
+
+##Same dataset will be used. You are going to show the relationship of the model and the manufacturer.
+
+##a. What does ggplot(mpg, aes(model, manufacturer)) + geom_point() show?
+```{r}
+ ggplot(mpg, aes(model, manufacturer)) + geom_point()
+```
+##b. For you, is it useful? If not, how could you modify the data to make it more informative?
+```{r}
+ggplot(mpg, aes(model, manufacturer)) + geom_point()
+```
+
+```{r}
+
+```
