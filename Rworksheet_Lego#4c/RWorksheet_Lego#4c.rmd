@@ -9,21 +9,23 @@ output: pdf_document
 ##a. Show your solutions on how to import a csv file into the environment.
 ```{r}
 library(readr)
-mpg <- read_csv("mpg.csv")
+mpg <- read.csv("mpg.csv")
 mpg
 ```
 
 ##b.Which variables from mpg dataset are categorical?
 ```{r}
-
+num1a<- sapply(mpg, function(x) is.factor(x)|| is.character(x))
+cat("Categorical Variables:  ", names(mpg)[num1a], "\n")
 ```
 
 ##c. Which are continuous variables?
 ```{r}
-
+num1b<- sapply(mpg, function(x) is.numeric(x) && !is.factor(x) && !is.character(x))
+cat("Continuous Variables: ", names(mpg)[num1b], "\n")
 ```
 
-##2. Which manufacturer has the most models in this data set? Which model has the most variations? Show your answer.
+## 2. Which manufacturer has the most models in this data set? Which model has the most variations? Show your answer.
 
 ```{r}
 mdl<- factor(mpg$model)
@@ -48,22 +50,165 @@ min(summary(mdl2a))
 
 ##b.Graph the result by using plot() and ggplot(). Write the codes and its result.
 ```{r}
-ggplot(data_ggp, aes(x = mpg$manufacturer, y = mpg$model)) + geom_bar(stat = "identity") 
-
-data_ggp <- data.frame(mpg$manufacturer,mpg$model)
+library(ggplot2)
+ggplot(mpg, aes(x = manufacturer, y = model,color= class)) + geom_point() 
 ```
 
-##Same dataset will be used. You are going to show the relationship of the model and the manufacturer.
-
-##a. What does ggplot(mpg, aes(model, manufacturer)) + geom_point() show?
+## Same dataset will be used. You are going to show the relationship of the model and the manufacturer.
+## a. What does ggplot(mpg, aes(model, manufacturer)) + geom_point() show?
 ```{r}
+library(ggplot2)
  ggplot(mpg, aes(model, manufacturer)) + geom_point()
 ```
-##b. For you, is it useful? If not, how could you modify the data to make it more informative?
+## b. For you, is it useful? If not, how could you modify the data to make it more informative?
+`It is not useful for me. It neede labels and add some colors`
 ```{r}
-ggplot(mpg, aes(model, manufacturer)) + geom_point()
+library(ggplot2)
+ggplot(mpg,aes(x=model,y=manufacturer,color=model))+
+  geom_point()+
+  labs(title = "Model and Manufacturer",
+       x="Model",
+       y="Manufacturer")
+
+
 ```
 
+## 3. Plot the model and the year using ggplot(). Use only the top 20 observations. Write the codes and its results.
+```{r}
+library(ggplot2)
+mpg20<- mpg[1:20, ]
+
+ggplot(mpg20, aes(x = model, y = year,color= model)) + geom_point() 
+```
+
+##4. Using the pipe (%>%), group the model and get the number of cars per model. Show codes and its result.
+```{r}
+library(dplyr)
+num4<- mpg %>%
+  group_by(model) %>%
+  summarise(count=n())
+num4
+  
+  
+```
+
+##a. Plot using geom_bar() using the top 20 observations only. The graphs shoudl have a title, labels and colors. Show code and results.
+```{r}
+library(ggplot2)
+num4a<-num4[1:20,]
+ggplot(num4a,aes(x=model,y=count,fill=model))+
+  geom_bar(stat="Identity")+
+  labs(title = "20 Observations",
+       x="Model",
+       y="Count")
+
+```
+
+##b. Plot using the geom_bar() + coord_flip() just like what is shown below. Show codes and its result
+```{r}
+library(ggplot2)
+ggplot(num4a,aes(x=model,y=count,fill=model))+
+  geom_bar(stat="Identity")+
+  coord_flip()+
+  labs(title = "20 Observations",
+       x="Model",
+       y="Count")
+```
+
+## 5. Plot the relationship between cyl - number of cylinders and displ - engine displacement using geom_point with aesthetic color = engine displacement. Title should be “Relationship between No. of Cylinders and Engine Displacement”.
+## a. How would you describe its relationship? Show the codes and its result.
+```{r}
+library(ggplot2)
+ggplot(mpg,aes(x=cyl,y=displ,color=displ))+
+  geom_point()+
+  labs(title = "Relationship between No. of Cylinders and Engine Displacement",
+       x="No. of Cylinder",
+       y="Engine Displacement")
+
+```
+##6. Plot the relationship between displ (engine displacement) and hwy(highway miles per gallon). Mapped it with a continuous variable you have identified in #1-c. What is its result? Why it produced such output?
+```{r}
+library(ggplot2)
+ggplot(mpg,aes(x=displ,y=hwy,color=hwy))+
+  geom_point()+
+  labs(title = "Relationship between Engine Displacement and Highway miles per gallon",
+       x="Engine Displacement",
+       y="Highway miles per gallon")
+```
+
+##6. Import the traffic.csv onto your R environment.
+```{r}
+
+```
+##a. How many numbers of observation does it have? What are the variables of the traffic dataset the Show your answer.
+```{r}
+
+```
+##b. subset the traffic dataset into junctions. What is the R codes and its output?
+```{r}
+
+```
+##c. Plot each junction in a using geom_line(). Show your solution and output.
+```{r}
+
+```
+
+##7. From alexa_file.xlsx, import it to your environment
+```{r}
+library(readxl)
+alexa_file <- read_excel("alexa_file.xlsx")
+alexa_file
+```
+##a. How many observations does alexa_file has? What about the number of columns? Show your solution and answer.
+```{r}
+alexa<- nrow(alexa_file)
+alexa
+alexa7<- ncol(alexa_file)
+alexa7
+```
+##b. group the variations and get the total of each variations. Use dplyr package. Show solution and answer.
+```{r}
+library(dplyr)
+
+alexa7b<- alexa_file %>%
+  group_by(variation) %>%
+  summarise(count=n())
+
+alexa7b
+```
+##c. Plot the variations using the ggplot() function. What did you observe? Complete the details of the graph. Show solution and answer.
+```{r}
+library(ggplot2)
+ggplot(alexa7b,aes(x=count,y=variation,fill=variation))+
+  geom_bar(stat="Identity")+
+  labs(title = "Variations of the alexa_file",
+       x="Count",
+       y="Variations")
+```
+
+##d. Plot a geom_line() with the date and the number of verified reviews. Complete the details of the graphs. Show your answer and solution.
+```{r}
+library(dplyr)
+alexa7d<- alexa_file %>%
+  group_by(verified_reviews) %>%
+  summarise(count=n())
+alexa7d
+
+alexa7d2<-alexa_file%>%
+  group_by(date)
+alexa7d2
+
+alexafl<- c(alexa7d, alexa7d2)
+```
+```{r}
+alex<-fortify(alexa_file)
+alex
+```
+
+```{r}
+
+```
+##e. Get the relationship of variations and ratings. Which variations got the most highest in rating? Plot a graph to show its relationship. Show your solution and answer.
 ```{r}
 
 ```
