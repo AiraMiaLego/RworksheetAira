@@ -1,5 +1,6 @@
 ---
 title: "RWorksheet_Lego#6"
+author: "Aira Mia Lego BSIT 2B"
 date: "2023-12-13"
 output:pdf_document
 ---
