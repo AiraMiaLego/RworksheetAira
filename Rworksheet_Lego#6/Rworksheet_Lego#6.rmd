@@ -1,17 +1,12 @@
 ---
-title: "RWorksheet_5"
-author: "Aira Mia Lego BSIT 2B"
-date: "2023-12-09"
-output: pdf_document
-editor_options: 
-  markdown: 
-    wrap: 72
+title: "RWorksheet_Lego#6"
+date: "2023-12-13"
+output:pdf_document
 ---
 
-Compute the descriptive statistics using different packages (Hmisc and
-pastecs).
+#Compute the descriptive statistics using different packages (Hmisc and pastecs).
 
-Write the codes and its result.
+#Write the codes and its result.
 
 ```{r}
 library(Hmisc)
@@ -26,7 +21,6 @@ data<- data.frame(
   PostTest = postT
   )
 
-data
 num1<- describe(data)
 num1
 ```
@@ -49,12 +43,9 @@ num1a<- stat.desc(data)
 num1a
 ```
 
-2\. The Department of Agriculture was studying the effects of several
-levels of a fertilizer on the growth of a plant. For some analyses, it
-might be useful to convert the fertilizer levels to an ordered factor.
+#2. The Department of Agriculture was studying the effects of several levels of a fertilizer on the growth of a plant. For some analyses, it might be useful to convert the fertilizer levels to an ordered factor.
 
-The data were 10,10,10, 20,20,50,10,20,10,50,20,50,20,10. ##a. Write the
-codes and describe the result.
+#The data were 10,10,10, 20,20,50,10,20,10,50,20,50,20,10. ##a. Write the #codes and describe the result.
 
 ```{r}
 fertilizer_level<- c(10,10,10, 20,20,50,10,20,10,50,20,50,20,10)
@@ -66,11 +57,9 @@ fertilizer
 'The data have been converted to an ordered factor, and the levels are ordered as 10<20<50.'
 ```
 
-3\. Abdul Hassan, president of Floor Coverings Unlimited, has asked you
-to study the exercise levels undertaken by 10 subjects were "l", "n",
-"n", "i", "l" , "l", "n", "n", "i", "l" ; n=none, l=light, i=intense
+#3. Abdul Hassan, president of Floor Coverings Unlimited, has asked you to study the exercise levels undertaken by 10 subjects were "l", "n", "n", "i", "l" , "l", "n", "n", "i", "l" ; n=none, l=light, i=intense
 
-a\. What is the best way to represent this in R?
+#a. What is the best way to represent this in R?
 
 ```{r}
 exercise_levels <- c("l", "n", "n", "i", "l", "l", "n", "n", "i", "l")
@@ -79,14 +68,9 @@ exercise<- factor(exercise_levels, levels = c("n", "l", "i"), labels= c("none", 
 exercise
 ```
 
-4.Sample of 30 tax accountants from all the states and territories of
-Australia and their individual state of origin is specified by a
-character vector of state mnemonics as:state \<- c("tas", "sa", "qld",
-"nsw", "nsw", "nt", "wa", "wa", "qld","vic", "nsw", "vic", "qld", "qld",
-"sa", "tas", "sa", "nt","wa", "vic", "qld", "nsw", "nsw", "wa", "sa",
-"act", "nsw","vic", "vic", "act")
+#4.Sample of 30 tax accountants from all the states and territories of Australia and their individual state of origin is specified by a character vector of state mnemonics as:state \<- c("tas", "sa", "qld", "nsw", "nsw", "nt", "wa", "wa", "qld","vic", "nsw", "vic", "qld", "qld", "sa", "tas", "sa", "nt","wa", "vic", "qld", "nsw", "nsw", "wa", "sa", "act", "nsw","vic", "vic", "act")
 
-a\. Apply the factor function and factor level. Describe the results.
+#a. Apply the factor function and factor level. Describe the results.
 
 ```{r}
 state <- c("tas", "sa", "qld", "nsw", "nsw", "nt", "wa", "wa", "qld","vic", "nsw", "vic", "qld", "qld", "sa", "tas", "sa", "nt","wa", "vic", "qld", "nsw", "nsw", "wa", "sa", "act", "nsw","vic", "vic", "act")
@@ -99,23 +83,19 @@ state_factor
 'This shows  the factor levels assigned to each state in the original order. The levels are automatically ordered alphabetically.'
 ```
 
-5\. From #4 - continuation: ##Suppose we have the incomes of the same
-tax accountants in another vector (in suitablylarge units of money)
-##incomes \<- c(60, 49, 40, 61, 64, 60, 59, 54, 62, 69, 70, 42, 56, 61,
-61, 61, 58, 51, 48, 65, 49, 49, 41, 48, 52, 46, 59, 46, 58, 43)
+#5. From #4 - continuation: ##Suppose we have the incomes of the same tax accountants in another vector (in suitablylarge units of money) ##incomes \<- c(60, 49, 40, 61, 64, 60, 59, 54, 62, 69, 70, 42, 56, 61, 61, 61, 58, 51, 48, 65, 49, 49, 41, 48, 52, 46, 59, 46, 58, 43)
 
-a\. Calculate the sample mean income for each state we can now use the
-special function tapply():
+#a. Calculate the sample mean income for each state we can now use the special function tapply():
 
 ```{r}
 incomes <- c(60, 49, 40, 61, 64, 60, 59, 54, 62, 69, 70, 42, 56, 61, 61, 61, 58, 51, 48, 65, 49, 49, 41, 48, 52, 46, 59, 46, 58, 43)
 
 income_means <- tapply(incomes, state_factor, mean)
 
-print(income_means)
+income_means
 ```
 
-b.  Copy the results and interpret.
+#b. Copy the results and interpret.
 
 ```{r}
  'act      nsw       nt      qld       sa      tas      vic       wa 
@@ -128,8 +108,7 @@ b.  Copy the results and interpret.
 'This analysis provides insights into the average income of tax accountants in each state based on the provided data.'
 ```
 
-7.Use the titanic dataset. ##a. subset the titatic dataset of those who
-survived and not survived. Show the codes and its result.
+#7.Use the titanic dataset. ##a. subset the titatic dataset of those who survived and not survived. Show the codes and its result.
 
 ```{r}
 titanic<- as.data.frame(Titanic)
@@ -140,12 +119,7 @@ not<- subset(titanic, Survived == 'No')
 not
 ```
 
-8.The data sets are about the breast cancer Wisconsin. The samples
-arrive periodically as Dr. Wolberg reports his clinical cases. The
-database therefore reflects this
-chronologihttps://drive.google.com/file/d/16MFLoehCgx2MJuNSAuB2CsBy6eDIIru/view?usp=drive_link)
-##Note Kindly click on the word BreastCancer to download the dataset.
-##a. describe what is the dataset all about.
+#8.The data sets are about the breast cancer Wisconsin. The samples arrive periodically as Dr. Wolberg reports his clinical cases. The database therefore reflects this chronologihttps://drive.google.com/file/d/16MFLoehCgx2MJuNSAuB2CsBy6eDIIru/view?usp=drive_link) ##Note Kindly click on the word BreastCancer to download the dataset. ##a. describe what is the dataset all about.
 
 ```{r}
 library(readr)
@@ -155,10 +129,9 @@ breastcancer_wisconsin
 'The data set is all about the collection of data that pertains to breast cancer diagnosis'
 ```
 
-d.Compute the descriptive statistics using different packages. Find the
-values of:
+#d.Compute the descriptive statistics using different packages. Find thevalues of:
 
-d1. Standard error of the mean for clump thickness.
+#d1. Standard error of the mean for clump thickness.
 
 ```{r}
 se_mean_clump_thickness <- sd(breastcancer_wisconsin$clump_thickness) / sqrt(length(breastcancer_wisconsin$clump_thickness))
@@ -166,7 +139,7 @@ se_mean_clump_thickness <- sd(breastcancer_wisconsin$clump_thickness) / sqrt(len
 cat("Standard Error of the Mean for Clump Thickness:", se_mean_clump_thickness, "\n")
 ```
 
-d2. Coefficient of variability for Marginal Adhesion.
+#d2. Coefficient of variability for Marginal Adhesion.
 
 ```{r}
 cv_marginal_adhesion <- sd(breastcancer_wisconsin$marginal_adhesion) / mean(breastcancer_wisconsin$marginal_adhesion) * 100
@@ -175,7 +148,7 @@ cat("Coefficient of Variability for Marginal Adhesion:", cv_marginal_adhesion, "
 
 ```
 
-d3. Number of null values of Bare Nuclei.
+#d3. Number of null values of Bare Nuclei.
 
 ```{r}
 null_values_bare_nuclei <- sum(is.na(breastcancer_wisconsin$bare_nucleoli))
@@ -185,7 +158,7 @@ cat("Number of Null Values of Bare Nuclei:", null_values_bare_nuclei, "\n")
 
 ```
 
-d4. Mean and standard deviation for Bland Chromatin
+#d4. Mean and standard deviation for Bland Chromatin
 
 ```{r}
 mean_bland_chromatin <- mean(breastcancer_wisconsin$bland_chromatin)
@@ -196,7 +169,7 @@ cat("Standard Deviation for Bland Chromatin:", sd_bland_chromatin, "\n")
 
 ```
 
-d5. Confidence interval of the mean for Uniformity of Cell Shape
+#d5. Confidence interval of the mean for Uniformity of Cell Shape
 
 ```{r}
 ci_mean_uniformity_cell_shape <- t.test(breastcancer_wisconsin$shape_uniformity)$conf.int
@@ -204,7 +177,7 @@ ci_mean_uniformity_cell_shape <- t.test(breastcancer_wisconsin$shape_uniformity)
 cat("Confidence Interval of the Mean for Uniformity of Cell Shape:", ci_mean_uniformity_cell_shape, "\n")
 ```
 
-d.  How many attributes?
+#d. How many attributes?
 
 ```{r}
 num_attributes <- ncol(breastcancer_wisconsin)
